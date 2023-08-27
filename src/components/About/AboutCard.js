@@ -11,7 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Aleyna AKTAŞ </span>
             from <span className="purple"> Denizli, Turkey.</span>
             <br /> I graduated from Denizli Pamukkale University Computer
-            Engineering.
+            Engineering. I like to improve myself and follow new technologies,
+            read articles about them. So I'm familiar with a lot of technology
+            and libraries.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
