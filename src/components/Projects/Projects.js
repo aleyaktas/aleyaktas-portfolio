@@ -111,7 +111,7 @@ function Projects() {
                 "Bootstrap",
               ]}
               ghLink="https://github.com/aleyaktas/planning-your-life"
-              demoLink="https://pyl.aleynaaktas.me/"
+              demoLink="https://pyl.aleynaaktas.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -124,7 +124,7 @@ function Projects() {
               ]}
               technologies={["React", "CSS", "Material UI"]}
               ghLink="https://github.com/aleyaktas/show-photos"
-              demoLink="https://showphotos.aleynaaktas.me/"
+              demoLink="https://showphotos.aleynaaktas.com/"
             />
           </Col>
         </Row>
