@@ -47,7 +47,7 @@ function Projects() {
                 "Material UI",
               ]}
               ghLink="https://github.com/aleyaktas/wordRace"
-              demoLink="https://wordrace.aleynaaktas.me/"
+              demoLink="https://wordrace.aleynaaktas.com/"
             />
           </Col>
           <Col md={4} className="project-card">
