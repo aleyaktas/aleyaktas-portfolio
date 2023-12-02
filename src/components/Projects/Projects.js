@@ -6,7 +6,7 @@ import wordrace from "../../Assets/Projects/wordrace.png";
 import pyl from "../../Assets/Projects/pyl.png";
 import showphotos from "../../Assets/Projects/showphotos.png";
 import pomodly from "../../Assets/Projects/pomodly.png";
-import beautydate from "../../Assets/Projects/beautydate.png";
+import newsapp from "../../Assets/Projects/newsApp.png";
 
 function Projects() {
   return (
@@ -48,28 +48,7 @@ function Projects() {
               ]}
               ghLink="https://github.com/aleyaktas/wordRace"
               demoLink="https://wordrace.aleynaaktas.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={beautydate}
-              isBlog={false}
-              title="Beauty Date"
-              descriptions={[
-                "● Users can register completely free of charge, record the start and expiration dates of the products they use, and receive warning notifications at any time. Thus, it uses its products more efficiently.",
-                "● I have the app published on app store.",
-              ]}
-              technologies={[
-                "React Native",
-                "Redux",
-                "TypeScript",
-                "Node.js",
-                "MongoDB",
-                "Firebase",
-                "StoryBook",
-                "AWS EC2",
-              ]}
-              appStoreLink="https://apps.apple.com/tr/app/beauty-date/id6451454683?l=tr"
+              googlePlayLink="https://play.google.com/store/apps/details?id=com.wordraceapp"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -112,6 +91,24 @@ function Projects() {
               ]}
               ghLink="https://github.com/aleyaktas/planning-your-life"
               demoLink="https://pyl.aleynaaktas.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={newsapp}
+              isBlog={false}
+              title="News App"
+              descriptions={[
+                "● It is a news application where the user can view the news, filter by category, add to favorites and search. User can dark mode the app and change the language of the app. Developed with MVVM pattern.",
+              ]}
+              technologies={[
+                "Swift",
+                "UIKit",
+                "Firebase",
+                "Alamofire",
+                "Swift",
+              ]}
+              ghLink="https://github.com/aleyaktas/NewsApp"
             />
           </Col>
           <Col md={4} className="project-card">
