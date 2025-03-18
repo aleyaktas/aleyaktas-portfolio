@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import wordrace from "../../Assets/Projects/wordrace.png";
-import pyl from "../../Assets/Projects/pyl.png";
-import showphotos from "../../Assets/Projects/showphotos.png";
 import pomodly from "../../Assets/Projects/pomodly.png";
 import newsapp from "../../Assets/Projects/newsApp.png";
+import selfEng from "../../Assets/Projects/selfEnglish.png";
+import kelibu from "../../Assets/Projects/kelibu.png";
+import beautyDate from "../../Assets/Projects/beautydate.png";
 
 function Projects() {
   return (
@@ -20,6 +21,62 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={selfEng}
+              isBlog={false}
+              title="Self English"
+              descriptions={[
+                "● Developed a comprehensive English learning application designed for users of all proficiency levels.",
+                "● Integrated speech recognition and AI-powered assessments to help users improve their pronunciation and fluency.",
+                "● Implemented roadmap feature to help users track their progress and set goals.",
+              ]}
+              technologies={[
+                "TypeScript",
+                "React Native",
+                "Redux",
+                "RevenueCat",
+                "Firebase",
+              ]}
+              googlePlayLink="https://play.google.com/store/apps/details?id=com.phdakademi.selfenglish"
+              appStoreLink="https://play.google.com/store/apps/details?id=com.phdakademi.selfenglish"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kelibu}
+              isBlog={false}
+              title="Kelibu"
+              descriptions={[
+                "● Developed a comprehensive English learning application designed for users of all proficiency levels.",
+                "● Created 5 different games to help users improve their vocabulary, grammar, and listening skills.",
+              ]}
+              technologies={["TypeScript", "React Native", "Redux"]}
+              googlePlayLink="https://play.google.com/store/search?q=kelibu&c=apps"
+              appStoreLink="https://apps.apple.com/tr/app/kelibu-i-ngilizce-kelime-%C3%B6%C4%9Fren/id6484268631?l=tr"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={beautyDate}
+              isBlog={false}
+              title="Beauty Date"
+              descriptions={[
+                "● Developed a mobile application allowing users to track product expiration dates with automated push notifications, improving efficiency in product usage and reducing waste.",
+              ]}
+              technologies={[
+                "TypeScript",
+                "React Native",
+                "Redux",
+                "Firebase",
+                "StoryBook",
+              ]}
+              googlePlayLink="https://play.google.com/store/apps/details?id=com.opiaclab.beautydate"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wordrace}
@@ -51,6 +108,7 @@ function Projects() {
               googlePlayLink="https://play.google.com/store/apps/details?id=com.wordraceapp"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pomodly}
@@ -69,30 +127,7 @@ function Projects() {
               demoLink="https://pomodly.com/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pyl}
-              isBlog={false}
-              title="Planning Your Life"
-              descriptions={[
-                "● Developed a website using MERN stack.",
-                "● Constructed an End-to-End backend system with Node.js, Express.js, MongoDB, CyberPanel and hosted on AWS EC2.",
-                "● Configured server firewalls and disabled password based SSH and enabled key based login to protect servers from unauthorized access.",
-              ]}
-              technologies={[
-                "JavaScript",
-                "React",
-                "Redux",
-                "Node.js",
-                "Express",
-                "MongoDB",
-                "AWS EC2",
-                "Bootstrap",
-              ]}
-              ghLink="https://github.com/aleyaktas/planning-your-life"
-              demoLink="https://pyl.aleynaaktas.com/"
-            />
-          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={newsapp}
@@ -109,19 +144,6 @@ function Projects() {
                 "Swift",
               ]}
               ghLink="https://github.com/aleyaktas/NewsApp"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={showphotos}
-              isBlog={false}
-              title="Show Photos"
-              descriptions={[
-                "● It is a web platform shows photos by category.",
-              ]}
-              technologies={["React", "CSS", "Material UI"]}
-              ghLink="https://github.com/aleyaktas/show-photos"
-              demoLink="https://showphotos.aleynaaktas.com/"
             />
           </Col>
         </Row>
