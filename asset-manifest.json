@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/aleyaktas-portfolio/static/css/main.25a6dca7.css",
+    "main.js": "/aleyaktas-portfolio/static/js/main.74f4be2b.js",
+    "static/js/108.1df154f4.chunk.js": "/aleyaktas-portfolio/static/js/108.1df154f4.chunk.js",
+    "static/js/27.2163fce8.chunk.js": "/aleyaktas-portfolio/static/js/27.2163fce8.chunk.js",
+    "static/media/showphotos.png": "/aleyaktas-portfolio/static/media/showphotos.9f44a11b8dae12b0bb1b.png",
+    "static/media/wordrace.png": "/aleyaktas-portfolio/static/media/wordrace.e5788291d5310c648a38.png",
+    "static/media/newsApp.png": "/aleyaktas-portfolio/static/media/newsApp.ad6af6d8dda3c86edc41.png",
+    "static/media/pomodly.png": "/aleyaktas-portfolio/static/media/pomodly.c0232f8ee277537ee2c5.png",
+    "static/media/about.png": "/aleyaktas-portfolio/static/media/about.3b51a3dacb8a79e528bb.png",
+    "static/media/pyl.png": "/aleyaktas-portfolio/static/media/pyl.828814d5bde496956338.png",
+    "static/media/Aleyna_Aktas_CV.pdf": "/aleyaktas-portfolio/static/media/Aleyna_Aktas_CV.5d42f00d5fb95137ed17.pdf",
+    "static/media/avatar.jpeg": "/aleyaktas-portfolio/static/media/avatar.34f4c2955929ff409d04.jpeg",
+    "static/media/home-main.svg": "/aleyaktas-portfolio/static/media/home-main.b1f4acdee07a84c0e88a5a318df783b0.svg",
+    "static/media/home-bg.jpg": "/aleyaktas-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/aleyaktas-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/aleyaktas-portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.25a6dca7.css",
+    "static/js/main.74f4be2b.js"
+  ]
+}
